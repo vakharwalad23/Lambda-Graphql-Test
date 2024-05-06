@@ -4,3 +4,5 @@
 zips/
 dist/
 node_modules/
+.aws-sam
+.aws-sam-iacs
