@@ -68,7 +68,6 @@ resource "aws_iam_policy" "iam_lambda_policy" {
           "logs:CreateLogGroup",
           "logs:CreateLogStream",
           "logs:PutLogEvents",
-          "s3:PutObject",
         ]
         Effect = "Allow"
         Resource : "arn:aws:logs:*:*:*"
